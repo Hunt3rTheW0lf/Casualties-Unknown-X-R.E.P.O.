@@ -1,0 +1,64 @@
+{
+  "replacements": [
+    {
+        "matches": [ 
+		        "*:Enemy Near 01", 
+                        "*:Enemy Near 02",
+                        "*:Enemy Near 03", 
+                        "*:Enemy Near 04", 
+                        "*:Enemy Near 05",
+                        "*:Enemy Near 06",
+                        "*:Enemy Near 07",
+                        "*:Enemy Near 08"
+                        ],
+                        "sounds": [
+                {
+                    "sound": "InsanityFear.wav"
+                }
+            ]
+    },
+    {
+            "matches": [
+            "*:player hurt long01",
+            "*:player hurt long02",
+            "*:player hurt long03"
+             ],
+            "sounds": [
+                { "sound": "spy_painsevere01.ogg", "weight": 1 },
+                { "sound": "spy_painsevere02.ogg", "weight": 1 },
+                { "sound": "spy_painsevere03.ogg", "weight": 1 },
+                { "sound": "spy_painsevere04.ogg", "weight": 1 },
+                { "sound": "spy_painsevere05.ogg", "weight": 1 }
+
+
+
+                    ]
+
+        },
+        {
+            "matches": [
+			"*:player hurt short01",
+			"*:player hurt short02",
+			"*:player hurt short03"
+			],
+            "sounds": [
+                { "sound": "spy_painsharp01.ogg", "weight": 1 },
+                { "sound": "spy_painsharp02.ogg", "weight": 1 },
+                { "sound": "spy_painsharp03.ogg", "weight": 1 },
+                { "sound": "spy_painsharp04.ogg", "weight": 1 }
+                    ]
+                    
+        },
+    {
+            "matches": [
+			"*:player death explosion01",
+			"*:player death explosion02",
+			"*:player death explosion03"
+			],
+            "sounds": [
+                { "sound": "DeathSFX.wav", "weight": 1 }
+                    ]
+                    
+        }
+  ]
+}
